@@ -4,9 +4,19 @@
 
  The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-- Project requirements:
+ The project will be done in 3 pahses. 
+ 
+ In the 1st phase the basic structure of html and javascript will be created.
 
-. MPORTANT NOTE This is the first time you will use Gitflow.
+ In the 2nd pahse API functionality will be added.
+
+ In the 3rd phase the style will be added using CSS.
+
+- Project requirements for 1st phase:
+
+. Develop a first working version of the app following a wireframe, but without styling - just focus on functionality
+
+. Use Gitflow.
 
 . Create an npm project with webpack.
 
@@ -15,6 +25,9 @@
 . Don't make API calls (you'll do it in a following lesson).
 
 . Use ES6 modules, with import and export.
+
+. Wireframe for 1st phase:
+   https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png
 
 
 ## Built With
