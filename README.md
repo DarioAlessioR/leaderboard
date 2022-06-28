@@ -1,15 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: Leaderboard
 
-> Description the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+- Project requirements:
+
+. MPORTANT NOTE This is the first time you will use Gitflow.
+. Create an npm project with webpack.
+. Write plain HTML markup with minimum styling (just to make the layout), because you will implement styles in the following steps.
+. Don't make API calls (you'll do it in a following lesson).
+. Use ES6 modules, with import and export.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: Javascript, HTML, CSS
+- Frameworks: webpack
+- Technologies used: Github
 
 ## Live Demo (if available)
 
@@ -42,15 +50,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+GitHub: https://github.com/DarioAlessioR
 
-👤 **Author2**
+Slack: https://microverse-students.slack.com/team/U039GCFRK9B
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+LinkedIn: https://www.linkedin.com/in/dario-alessio-3a3b7911b
 
 ## 🤝 Contributing
 
