@@ -1,15 +1,33 @@
-import _ from 'lodash';
+import add from './modules/add.js';
+import showscorelist from './modules/showscorelist.js';
 import './style.css';
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+//localStorage.clear()
 
-  
-    return element;
+const scorelist = [
+  {
+    id: 0,
+    name:'',
+    score: 0,
+  },
+];
+
+const localSt = JSON.parse(localStorage.getItem('scorelist'));
+  if (localSt == null) {
+    localStorage.setItem('scorelist', JSON.stringify(scorelist));
+    } else {
+    showscorelist(localSt);
   }
-  
-  document.body.appendChild(component());
+
+const submitbtn = document.getElementById('submit');
+submitbtn.addEventListener('click', () => {
+  const name = document.getElementById('name');
+  const yourname = name.value;
+  const score = document.getElementById('score');
+  const yourscore = score.value;
+  add(yourname, yourscore);
+  name.value = '';
+  score.value = '';
+});
+
+export default scorelist;
