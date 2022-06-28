@@ -2,14 +2,18 @@
 
 # Project Name: Leaderboard
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+ The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 - Project requirements:
 
 . MPORTANT NOTE This is the first time you will use Gitflow.
+
 . Create an npm project with webpack.
+
 . Write plain HTML markup with minimum styling (just to make the layout), because you will implement styles in the following steps.
+
 . Don't make API calls (you'll do it in a following lesson).
+
 . Use ES6 modules, with import and export.
 
 
@@ -44,11 +48,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Dario Alessio**
 
 GitHub: https://github.com/DarioAlessioR
 
